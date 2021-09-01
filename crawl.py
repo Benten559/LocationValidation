@@ -16,7 +16,7 @@ class PersistCrawl():
         """Getting each thread to begin"""
         #idxRange = self.split(self.jobSize,self.ins)
         for i in self.ins:
-            self.run_job("3053 w roberts")#idxRange[i])
+            self.run_job("test Address")#idxRange[i])
     
     def resume_job(self,i:int):
         """Revive the job that failed"""
